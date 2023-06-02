@@ -4,32 +4,25 @@
 
 ## Overview of the Analysis
 
-* Explain the purpose of the analysis.
- To determine credit worthyness of prospective borrowers
+* This models was created to determine credit worthyness of prospective borrowers
 
-* Explain what financial information the data was on, and what you needed to predict.
- The data required to perform the analysis is loan intres rate, borrower income, number of open accounts, DTI (debt-to-income ratio), and total debt.
+* The data required to perform the analysis is loan intres rate, borrower income, number of open accounts, DTI (debt-to-income ratio), and total debt.
 
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* This model was created using logreg (regression).
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  ![image](https://github.com/deanjustin32/credit-risk-classification/assets/119831680/dbadee3b-f9fd-4e86-8165-5508710d04c1)
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  ![image](https://github.com/deanjustin32/credit-risk-classification/assets/119831680/7ee9d1b0-59e3-4b2f-8513-d39b16e7f7d8)
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+* The model appears to predict healthy loans more accuretley than high risk loans. I see this as a positive for the bank issuing the loans as it represents a lower risk. For example, if they determin the loan is unhealth when it actually may have been healthy than the adage of "nothing ventured nothing lost" apllies. If, however the bank were to issue a loan that was determined healthy when it actually wasn't, the bank may lose money.
 
-If you do not recommend any of the models, please justify your reasoning.
+
