@@ -4,11 +4,11 @@
 
 ## Overview of the Analysis
 
-* Explain the purpose of the analysis.
-*   To determine credit worthyness of prospective borrowers
+**Explain the purpose of the analysis.
+* To determine credit worthyness of prospective borrowers
 
-* Explain what financial information the data was on, and what you needed to predict.
-*   The data required to perform the analysis is loan intres rate, borrower income, number of open accounts, DTI (debt-to-income ratio), and total debt.
+**Explain what financial information the data was on, and what you needed to predict.
+* The data required to perform the analysis is loan intres rate, borrower income, number of open accounts, DTI (debt-to-income ratio), and total debt.
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
